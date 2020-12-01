@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        td, th {
+              text-align: left;
+            }
+    </style>
+</head>
+<body>
+    <h2>Contact</h2>
+    <form action="/action_page.php">
+        <table>
+            <tr>
+                <th><label for="fname">First name :</label></th>
+                <td><input type="text" id="fname" name="fname"><br></td>
+            </tr>
+            <tr>
+                <th><label for="lname">Last name :</label></th>
+                <td><input type="text" id="lname" name="lname"><br></td>
+            </tr>
+            <tr>
+                <th>Gender :</th>
+                <td><input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label><br></td>
+            </tr>
+            <tr>
+                <th><label for="subject">Subject :</label></th>
+                <td><input type="text" id="subject" name="subject"><br></td>
+            </tr>
+            <tr>
+                <th><label for="massage">Massage :</label></th>
+                <td><input type="text" id="massage" name="massage"><br></td>
+            </tr>
+            <tr>
+                <th><label for="phone">Phone :</label></th>
+                <td><input type="text" id="phone" name="phone"><br></td>
+            </tr>
+            <tr>
+                <th><label for="mail">E-mail :</label></th>
+                <td><input type="text" id="mail" name="mail"><br></td>
+            </tr>
+        </table>
+        
+        <br><input type="submit" value="Submit" >
+      </form> 
+</body>
+</html>

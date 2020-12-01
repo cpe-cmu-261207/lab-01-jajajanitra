@@ -5,15 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+        }
         td, th {
-              text-align: left;
-            }
+            border: 1px solid #dddddd;
+            padding: 8px;
+            font-size: large;
+        }
     </style>
 </head>
 <body>
+    <table style="width: 100%;">
+        <tr>
+            <th><a href="Homepage.html">Homepage</a></th>
+            <th><a href="Gallery.html">Gallery</a></th>
+            <th><a href="Contact.html">Contact</a></th>
+        </tr>
+    </table>
     <h2>Contact</h2>
     <form action="/action_page.php">
-        <table>
+        <table style="text-align: left;">
             <tr>
                 <th><label for="fname">First name :</label></th>
                 <td><input type="text" id="fname" name="fname"><br></td>
